@@ -202,6 +202,9 @@ span{
 }
 /* footer area */
 .footer-area{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 0px;
     display: fixed;
     background-color: #0A0826;
 }
