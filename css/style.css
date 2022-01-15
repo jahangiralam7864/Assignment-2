@@ -70,7 +70,7 @@ body{
     float: right;
 }
 hr{
-    color: #EAEEF3;
+    border: 1px solid #e1dddd;
 }
 
 .company-name{
@@ -109,6 +109,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 30px;
+    column-gap: 35px;
 }
 .item-name{
     text-align: center;
@@ -118,7 +119,9 @@ hr{
 }
 .callection{
     box-shadow: 2px gray;
-margin-left: 33px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px 20px 0px 20px;
+    border-radius: 6px;
 }
 .change-color{
     color: #787885;
@@ -130,4 +133,106 @@ span{
     color: #787885;
     font-weight: bold;
 }
+.next{
+    display: flex;
+    float: right;
+    justify-content: space-around;
+}
+.next i{
+    width: 16px;
+    height: 14px;
+    margin-top: 30px;
+    color: #E02C6D;
+}
+.button-right{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+}
+.button-right a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: bold;
+    margin-right: 7px;
+}
 
+/* extra future style */
+.ex-future{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;
+}
+.Adon-dokan img{
+    width: 404px;
+    height: 270px;
+}
+.Adon-title{
+    margin-top: -30px;
+}
+.Adon-title h1{
+    font-size: 38px;
+    color: #0A0826;
+}
+.Adon-title p{
+    color:#6C6C6C;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.adon{
+    width: 130px;
+    background-color: violet;
+    display: flex;
+}
+.adons{
+    padding: 12px;
+    list-style: none;
+}
+.adons a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.adon i{
+    margin-top: 15px;
+    color: white;
+}
+/* footer area */
+.footer-area{
+    display: fixed;
+    background-color: #0A0826;
+}
+.footer-area h1{
+    color: white;
+    font-size: 24px;
+}
+.footer-title{
+    text-align: center;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.footer-area{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.icon-area{
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+}
+.icon-area img{
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.wedevs{
+    width: 80px;
+    height: 80px;
+}
