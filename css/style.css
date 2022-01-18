@@ -75,6 +75,11 @@ body{
     height: 414px;
     float: right;
 }
+.right-contant img:hover{
+    transform: rotate(360deg);
+    transition: 8s ease;
+}
+
 hr{
     border: 1px solid #e1dddd;
 }
